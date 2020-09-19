@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        //membuat object pertama
+        function mahasiswa(nama, nomor) {
+            this.nama = nama;
+            this.nomor = nomor;
+        }
+        var ucup = new mahasiswa("ucup", 10);
+        var otong = new mahasiswa("otong", 20);
+        var sniper = new mahasiswa("sniper", 30);
+        var rikimaru = new mahasiswa("rikimaru", 40);
+    </script>
+</head>
+
+<body>
+    <script type="text/javascript">
+        document.write("nama = " + ucup.nama);
+        document.write("<br>");
+        document.write("nomor = " + ucup.nomor);
+        document.write("<br>");
+        document.write("nama = " + otong.nama);
+        document.write("<br>");
+        document.write("nomor = " + otong.nomor)
+        document.write("<br>");
+        document.write("nama = " + sniper.nama)
+        document.write("<br>");
+        document.write("nomor = " + sniper.nomor)
+        document.write("<br>");
+        document.write("nama = " + rikimaru.nama)
+        document.write("<br>");
+        document.write("nomor = " + rikimaru.nomor)
+        document.write("<br>");
+    </script>
+</body>
+
+</html>
